@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de contato</title>
+
+    <style>
+      input {
+        margin-bottom: 16px;
+      }
+
+      select {
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+
+      fieldset {
+        width: 300px;
+        margin: auto;
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <fieldset>
+        <legend>ENTRE EM CONTATO</legend>
+        <strong>Assunto:</strong>
+        <select name="" id="">
+          <option value="Suporte">Suporte</option>
+          <option value="Sugestão">Sugestão</option>
+          <option value="Reclamação">Reclamação</option>
+        </select>
+        <br />
+        <strong>Nome Completo</strong> <br />
+        <input type="text" placeholder="Sheldon Lee Cooper" /> <br />
+        <strong>E-mail</strong> <br />
+        <input type="email" placeholder="teste@domínio.com" /> <br />
+        <strong>Mensagem</strong>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Escreva aqui a sua mensagem!"
+        ></textarea>
+        <br />
+        <input type="checkbox" />
+        Aceito receber novidades por e-mail
+        <button>Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
